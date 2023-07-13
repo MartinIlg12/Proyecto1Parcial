@@ -142,6 +142,12 @@ p{
     background-attachment: fixed;
     text-align: center;
 }
+.price-d{
+    background: #171718;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
 .servicios{
     background: url(imagenes/paisaje.jpg);
 }
@@ -244,7 +250,7 @@ img{
 }
 .contact {
     padding: 50px 0;
-    background: #171717;
+    background: black;
 }
 .footer-section{
     display: flex;
@@ -258,4 +264,13 @@ img{
     color: #fff;
     text-decoration: none;
     margin-top: 20px;
+}
+@media(max-width: 767px){
+
+}
+@media(min-width: 768px) and (max-width: 990px){
+    
+}
+@media(min-width: 991px){
+    
 }
