@@ -26,7 +26,7 @@ body{
 }
 .logo a{
     text-decoration: none;
-    color: azure;
+    color: rgb(231, 7, 130);
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -37,19 +37,19 @@ body{
 .navbar a{
     display: block;
     padding: 20px 20px;
-    color: beige;
+    color: rgb(251, 253, 251);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
     }
 .navbar a:hover{
-    background: #e91e63;
+    background: rgb(231, 7, 130);
 }
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8000px;
+    height: 500px;
     background: url(imagenes/logoPelu.jpg) no-repeat center;
     background-size: cover;
 }
@@ -59,6 +59,12 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+}
+.titleT{
+    font-size: 17px;
+    font-weight: 100px;
+    color:rgb(231, 7, 130);
+    text-align: right;
 }
 p{
     margin-bottom: 40px;
@@ -70,10 +76,10 @@ p{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #e91e63;
-    color: #fff;
+    border: 2px solid rgb(231, 7, 130);
+    color: #080808;
     text-decoration: none;
-    background-color: #e91e63;
+    background-color:rgb(231, 7, 130);
 }
 .btn:hover{
     background-color: none;
@@ -87,7 +93,7 @@ p{
 }
 .sau{
     padding: 50px 0;
-    background: #303030;
+    background: #070707;
 }
 .box-container{
     display: flex;
@@ -102,7 +108,7 @@ p{
     background-color: #171717;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 5px 5px rgb(231, 7, 130);
     margin: 20px;
 }
 .box-container .box i{
@@ -111,21 +117,21 @@ p{
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    color: #fff;
-    background: #e91e63;
+    color: #080808;
+    background: rgb(231, 7, 130);
     font-size: 25px;
     margin: 10px 0;
 }
 .box-container .box h3{
     font-size: 20px;
-    color: #e91e63;
+    color: rgb(231, 7, 130);
 }
 .box-container.box {
     padding: 0 15px;
     font-size: 16px;
 }
 .service{
-    background: url(imagenes/logoheader.jpg) no-repeat center;
+    background: url(imagenes/fondo.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -136,14 +142,20 @@ p{
     background-attachment: fixed;
     text-align: center;
 }
+.servicios{
+    background: url(imagenes/paisaje.jpg);
+}
 
 .about{
-    background: #a10761;
     padding: 100px 0;
+    background-size: cover;
+    background: url(imagenes/paisaje.jpg) ;
 }
 #contentItemsCarrusel{
-    border: #eb078c 5px solid;
-    height: 800px;
+    background-color: #303030;
+    border: #fff 5px solid;
+    height: 600px;
+    width: 600px;
     overflow: hidden;
 }
 .itemCarrusel{
@@ -159,7 +171,7 @@ p{
     position: absolute;
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 96%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -181,12 +193,12 @@ p{
     background-color: #050505;
 }
 i{
-    color: #fff;
+    color: rgb(251, 253, 251);
 }
 #contePuntos{
     background-color: #303030;
     display: flex;
-    justify-content: space-around;
+    width: 800px;
 }
 img{
     width: 100%;
@@ -213,12 +225,12 @@ img{
     object-fit: cover;
     border-radius: 50%;
     margin-top: -50px;
-    border: 6px solid #e91e63;
+    border: 6px solid rgb(231, 7, 130);
 
 }
 .box-container .box h3{
     font-size: 20px;
-    color: #e91e63;
+    color: rgb(231, 7, 130);
     padding-top: 10px;
 }
 .box-container .box p{
@@ -228,7 +240,7 @@ img{
 }
 .box-container2 .stars i{
     font-size: 15px;
-    color: #e91e63;
+    color: rgb(231, 7, 130);
 }
 .contact {
     padding: 50px 0;
